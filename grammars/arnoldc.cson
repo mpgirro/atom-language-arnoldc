@@ -6,57 +6,40 @@
 'name': 'ArnoldC'
 'patterns': [
   {
-    'include': '#arnoldc'
+    'match': '(HEY\ CHRISTMAS\ TREE|YOU\ SET\ US\ UP|YOU\ HAVE\ BEEN\ TERMINATED|GET\ TO\ THE\ CHOPPER|ENOUGH\ TALK|HERE\ IS\ MY\ INVITATION|GET\ UP|LET\ OFF\ SOME\ STEAM\ BENNET|HASTA\ LA\ VISTA\,\ BABY)'
+    'name': 'keyword.control.arnoldc'
   }
-]
-'repository':
-
-  'keyword':
-    'patterns': [
-        {
-          'match': '(HEY\ CHRISTMAS\ TREE|YOU\ SET\ US\ UP|YOU\ HAVE\ BEEN\ TERMINATED|GET\ TO\ THE\ CHOPPER|ENOUGH\ TALK|HERE\ IS\ MY\ INVITATION|GET\ UP|LET\ OFF\ SOME\ STEAM\ BENNET|HASTA\ LA\ VISTA\,\ BABY)'
-          'name': 'keyword.control.arnoldc'
-        }
-        {
-          'match': '(TALK\ TO\ THE\ HAND|YOU\ ARE\ NOT\ YOU\ YOU\ ARE\ ME|HE\ HAD\ TO\ SPLIT|YOU\'RE\ FIRED|GET\ DOWN|GET\ YOUR\ ASS\ TO\ MARS|DO\ IT\ NOW|I\ LET\ HIM\ GO|CONSIDER\ THAT\ A\ DIVORCE|KNOCK\ KNOCK)'
-          'name': 'keyword.control.arnoldc'
-        }
-    ]
-  'constant':
-    'patterns': [
-      {
-        'match': '(YOU\ SET\ US\ UP)'
-        'name': 'constant.numeric.arnoldc'
-      }
-      {
-        'match': '\s[0-9]+'
-        'name': 'constant.numeric.arnoldc'
-      }
-    ]
-  'string':
-    'patterns': [
+  {
+    'match': '(TALK\ TO\ THE\ HAND|YOU\ ARE\ NOT\ YOU\ YOU\ ARE\ ME|HE\ HAD\ TO\ SPLIT|YOU\'RE\ FIRED|GET\ DOWN|GET\ YOUR\ ASS\ TO\ MARS|DO\ IT\ NOW|I\ LET\ HIM\ GO|CONSIDER\ THAT\ A\ DIVORCE|KNOCK\ KNOCK)'
+    'name': 'keyword.control.arnoldc'
+  }
+  {
+    'match': '(YOU\ SET\ US\ UP)'
+    'name': 'constant.numeric.arnoldc'
+  }
+  {
+    'match': '\s[0-9]+'
+    'name': 'constant.numeric.arnoldc'
+  }
+  {
       'match': '".*"'
       'name': 'string.quoted.double'
-    ]
-  'boolean':
-    'patterns': [
+  }
+  {
       'match': '(@I\ LIED|@NO\ PROBLEMO)'
       'name': 'support.constant'
-    ]
-  'function':
-    'patterns': [
+  }
+  {
       'match': 'LISTEN\ TO\ ME\ VERY\ CAREFULLY|IT\'S\ SHOWTIME'
       'name': 'entity.name.function'
-    ]
-
-  'storage':
-    'patterns': [
+  }
+  {
       'match': 'STICK\ AROUND|CHILL|BECAUSE\ I\'M\ GOING\ TO\ SAY\ PLEASE|YOU\ HAVE\ NO\ RESPECT\ FOR\ LOGIC|BULLSHIT'
       'name': 'storage.type'
-    ]
-  'parameter':
-    'patterns': [
+  }
+  {
       'match': 'I\ NEED\ YOUR\ CLOTHES\ YOUR\ BOOTS\ AND\ YOUR\ MOTORCYCLE|GIVE\ THESE\ PEOPLE\ AIR|I\'LL\ BE\ BACK'
       'name': 'variable.parameter'
-    ]
+  }
+]
 'scopeName': 'source.arnoldc'
