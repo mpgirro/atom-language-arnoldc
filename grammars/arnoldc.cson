@@ -1,8 +1,6 @@
 'fileTypes': [
   'arnoldc'
 ]
-'foldingStartMarker': '/\\*\\*|\\{\\s*$'
-'foldingStopMarker': '\\*\\*/|^\\s*\\}'
 'name': 'ArnoldC'
 'patterns': [
   {
