@@ -1,15 +1,15 @@
 {
-  "name": "language-arnoldc",
+  "name": "anguage-arnoldc",
   "version": "0.3.1",
   "description": "ArnoldC language support in Atom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mpgirro/language-arnoldc"
+    "url": "https://github.com/mpgirro/atom-language-arnoldc"
   },
   "bugs": {
-    "url": "https://github.com/mpgirro/language-arnoldc/issues"
+    "url": "https://github.com/mpgirro/atom-language-arnoldc/issues"
   },
-  "homepage": "https://github.com/mpgirro/language-arnoldc",
+  "homepage": "https://github.com/mpgirro/atom-language-arnoldc",
   "readme": "# ArnoldC language support in Atom\n\nAdds syntax highlighting to ArnoldC files in Atom.",
   "readmeFilename": "README.md",
   "author": {
