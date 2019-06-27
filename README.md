@@ -1,9 +1,7 @@
-# ArnoldC language support in Atom
+# ArnoldC language support for Atom
 
-Syntax highlightning for the [ArnoldC programming language](http://lhartikk.github.io/ArnoldC/) for [Atom editor](https://atom.io)
+Syntax highlightning for the [ArnoldC programming language](http://lhartikk.github.io/ArnoldC/) to the [Atom editor](https://atom.io)
 
-Install it via the Settings Pane or by using the Atom Package Manager:
+Install this package via the Settings Pane or by using the Atom Package Manager:
 
-```
-apm install language-arnoldc
-```
+    apm install language-arnoldc
