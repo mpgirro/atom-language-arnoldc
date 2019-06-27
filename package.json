@@ -1,6 +1,6 @@
 {
   "name": "language-arnoldc",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "ArnoldC language support for Atom",
   "repository": {
     "type": "git",
